@@ -1,0 +1,25 @@
+form {
+  font-family: Assistant;
+  text-align: right;
+  direction: rtl;
+}
+
+.formControl {
+  margin: 20px 50%;
+  color: #606060;
+  font-size: 14px;
+  letter-spacing: 0;
+  line-height: 2;
+  width: 35vw;
+}
+
+.sameLineLabel {
+  display: inline-block;
+}
+
+.radio {
+  display: inline-block;
+  text-align: left;
+  width: unset;
+  font-size: 12px;
+}

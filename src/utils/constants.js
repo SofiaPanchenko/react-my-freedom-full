@@ -1,4 +1,6 @@
 export const GENERAL = {
+  guideTitle:
+    "היי, מלא/י את הטופס, ככל שתפרט/י  נוכל לדייק את המענה. אנחנו מתחייבים לשמור על דיסקרטיות!",
   age: "גיל",
   phoneNumber: "טלפון",
   address: "כתובת",
@@ -44,17 +46,7 @@ export const SELF_REPORT = {
   closedCommunity: "אני חלק מקהילה סגורה",
   specialNeeds: "אני בעל/ת צרכים מיוחדים",
   violence: {
-    violenceType: "",
-    rateInfo: "",
-    physical: "אלימות פיזית",
-    sexual: "אלימות מינית",
-    mental: "אלימות נפשית",
-    economical: "אלימות כלכלית",
-    neglect: "הזנחה",
-    preventPsychoTreatment: "מניעת טיפול פסיכולוגי",
-    preventMedicalTreatment: "מניעת טיפול רפואי",
-    lifeThreat: "איום על חייך או חיי אחרים",
-    socialDisconnection: "ניתוק חברתי"
+    violenceType: "איזו סוג אלימות את/ה חווה?"
   },
 
   tenantAttacker: "האם הפוגע גר איתך באותו הבית?",
@@ -68,6 +60,9 @@ export const REPORT_OTHER = {
   fullName: "שם מלא של ממלא/ת הטופס",
   closedCommunity: "הוא/היא חלק מקהילה סגורה",
   specialNeeds: "הוא/היא בעל/ת צרכים מיוחדים",
+  violence: {
+    violenceType: "איזו סוג אלימות הוא/היא חווה?"
+  },
   tenantAttacker: "האם הפוגע גר איתו/איתה באותו הבית?",
   injuryTreatment: "האם הוא/היא קיבל/ה טיפול רגשי/פיזי סביב הפגיעה?"
 };
