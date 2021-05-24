@@ -1,20 +1,18 @@
-import Header from './components/Header'
-import Footer from './components/Footer'
-import About from './components/About'
-import Form from './components/Form'
-import {useForm} from 'react-hook-form';
-
+import { useForm } from "react-hook-form";
+import Header from "./components/Header/index";
+import Footer from "./components/Footer/index";
+import About from "./components/About/index";
+import Form from "./components/Form/index";
 
 const App = () => {
-
   return (
-      <div className='container'>
-        <Header/>
-        <About />
-        <Footer />
-        <Form />
-      </div>
-  )
-}
+    <div className="container">
+      <Header />
+      <Form />
+      <About />
+      <Footer />
+    </div>
+  );
+};
 
-export default App
+export default App;
