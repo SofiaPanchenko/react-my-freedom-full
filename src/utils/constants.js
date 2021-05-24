@@ -1,9 +1,10 @@
 export const GENERAL = {
-  guideTitle:
-    "היי, מלא/י את הטופס, ככל שתפרט/י  נוכל לדייק את המענה. אנחנו מתחייבים לשמור על דיסקרטיות!",
+  guideTitle1: "היי, מלא/י את הטופס, ככל שתפרט/י  נוכל לדייק את המענה.",
+  guideTitle2: "אנחנו מתחייבים לשמור על דיסקרטיות!",
   age: "גיל",
   phoneNumber: "טלפון",
   address: "כתובת",
+  chooseOption: "נא בחר/י",
   sector: {
     sector: "מגזר",
     noReligion: "ללא סיווג דת",
@@ -12,7 +13,6 @@ export const GENERAL = {
     druze: "דרוזי",
     christian: "נוצרי"
   },
-
   gender: {
     gender: "מגדר",
     undefined: "לא מוגדר",
@@ -29,11 +29,36 @@ export const GENERAL = {
     preventPsychoTreatment: "מניעת טיפול פסיכולוגי",
     preventMedicalTreatment: "מניעת טיפול רפואי",
     lifeThreat: "איום על חייך או חיי אחרים",
-    socialDisconnection: "ניתוק חברתי"
+    socialDisconnection: "ניתוק חברתי",
+    freedomOfMovement: "(הגבלה או מניעת חופש תנועה)"
   },
-  violenceDuration: "?משך זמן האלימות",
-  attacker: "מי הפוגע/ים?",
-  aidType: "איזה סיוע היית רוצה לקבל ?",
+  violenceDuration: {
+    duration: "משך זמן האלימות?",
+    once: "חד פעמי",
+    lastHalfAYear: "בחצי שנה האחרונה",
+    lastYearAndMore: "בשנה האחרונה ויותר"
+  },
+  attacker: {
+    q: "מי הפוגע/ים?",
+    spouse: "בן/בת זוג",
+    parent: "הורה",
+    child: "ילד/ה",
+    educationalAuthority: "סמכות חינוכית",
+    religiousAuthority: "סמכות דתית",
+    other: "אחר"
+  },
+  aidType: {
+    q: "איזה סיוע היית רוצה לקבל?",
+    police: "משטרה",
+    shelter: "מקלט",
+    treatmentCenter: "מרכז טיפולי",
+    welfareDepartment: "לשכת הרווחה",
+    anotherAuthority: "גורם אחר"
+  },
+  booleanAnswers: {
+    yes: "כן",
+    no: "לא"
+  },
   legalProcess: "האם קיים/ היה קיים הליך משפטי/פלילי מול הפוגע?",
   contactInfo: "איפה ואיך ניתן ליצור איתך קשר לאחר שליחת הטופס?",
   additionalComments: "הערות נוספות - האם יש משהו שחשוב שנדע?",
@@ -70,3 +95,5 @@ export const REPORT_OTHER = {
 export const ERRORS = {
   required: "שדה זה הוא חובה"
 };
+
+export const arrNumbers = ["0", "1", "2", "3", "4", "5"];

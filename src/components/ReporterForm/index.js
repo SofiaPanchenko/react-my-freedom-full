@@ -21,7 +21,8 @@ const ReporterForm = () => {
   return (
     <form className="formControl">
       <div>
-        <p>{GENERAL.guideTitle}</p>
+        <p>{GENERAL.guideTitle1}</p>
+        <p>{GENERAL.guideTitle2}</p>
       </div>
 
       <br />
@@ -52,8 +53,11 @@ const ReporterForm = () => {
             defaultChecked={isSelfReport === false}
             onClick={() => onReportOtherMode()}
           />
-          <label htmlFor="selfReporter">{REPORT_OTHER.reporterID}</label>
+          <label htmlFor="selfReporter" className="sameLineLabel">
+            {REPORT_OTHER.reporterID}
+          </label>
         </label>
+        <br />
       </div>
     </form>
   );

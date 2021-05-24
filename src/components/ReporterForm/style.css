@@ -5,12 +5,10 @@ form {
 }
 
 .formControl {
-  margin: 20px 50%;
   color: #606060;
   font-size: 14px;
   letter-spacing: 0;
   line-height: 2;
-  width: 35vw;
 }
 
 .sameLineLabel {

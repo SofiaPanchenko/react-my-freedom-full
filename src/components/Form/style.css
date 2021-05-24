@@ -5,24 +5,49 @@ form {
 }
 
 .formControl {
-  margin: 20px 50%;
+  /*  margin: 20px 50%; */
   color: #606060;
   font-size: 14px;
   letter-spacing: 0;
   line-height: 2;
-  width: 35vw;
+  /*   width: 35vw; */
+}
+
+.form-section {
+  margin: 2% 0;
 }
 
 label {
   display: block;
+  letter-spacing: -0.01em;
+}
+
+.textInput {
+  width: 40%;
+  background-color: transparent;
+  border-style: solid;
+  border-width: 0px 0px 1px 0px;
+  border-color: #606060;
 }
 
 .sameLineLabel {
   display: inline-block;
 }
 
+.radio {
+  display: inline-block;
+  text-align: left;
+  width: unset;
+  font-size: 12px;
+  margin: 0 3px 0 8px;
+}
+
 .radioLabel {
   margin-right: 5px;
+}
+
+.radioTitleLabel {
+  margin-left: 15px;
 }
 
 .error {
@@ -33,6 +58,12 @@ label {
 .labelComment {
   font-size: 12px;
   line-height: 1;
+}
+
+.radioWithLabelComment {
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
 }
 
 select {
@@ -99,35 +130,4 @@ select {
 .btn-block {
   display: block;
   width: 100%;
-}
-
-.radio {
-  display: inline-block;
-  text-align: left;
-  width: unset;
-  font-size: 12px;
-  margin: 0 3px 0 8px;
-}
-
-/* label .styledRadio {
-  display: none;
-}
-
-label .radioNumber {
-  border: 1px solid #ccc;
-  width: 2vw;
-  height: 2vh;
-  overflow: hidden;
-  line-height: 1;
-  text-align: center;
-  border-radius: 100%;
-  font-size: 10pt;
-  left: 0;
-  top: 50%;
-  margin-top: -7.5px;
-} */
-
-.styledRadio:checked + .radioNumber {
-  background: #ccf;
-  border-color: #ccf;
 }
