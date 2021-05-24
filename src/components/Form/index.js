@@ -1,5 +1,8 @@
 import { useForm } from "react-hook-form";
+<<<<<<< HEAD
 import styles from "./style.css";
+=======
+>>>>>>> a5795475462f8eccc362a219519d51c12bfb5bba
 
 const Form = () => {
   const {
@@ -10,6 +13,7 @@ const Form = () => {
   const onSubmit = (data) => console.log(data);
 
   return (
+<<<<<<< HEAD
     <form className='form-control' onSubmit={handleSubmit(onSubmit)}>
       <p className='form-header'>היי, מלא/י את הטופס, ככל שתפרט/י נוכל לדייק את המענה. אנחנו מתחייבים לשמור על דיסקרטיות!</p>
       <label htmlFor="fullName">שם מלא</label>
@@ -72,6 +76,18 @@ const Form = () => {
 
 
       <input className='btn' type="submit" />
+=======
+    <form onSubmit={handleSubmit(onSubmit)}>
+      <label htmlFor="firstName">First name</label>
+      <input
+        id="firstName"
+        aria-invalid={errors.firstName ? "true" : "false"}
+        {...register("firstName", { required: true })}
+      />
+      {errors.firstName && <span role="alert">This field is required</span>}
+
+      <input type="submit" />
+>>>>>>> a5795475462f8eccc362a219519d51c12bfb5bba
     </form>
   );
 };
