@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/my-freedom/static/css/main.d3ef1a47.chunk.css",
+    "main.js": "/my-freedom/static/js/main.95b62504.chunk.js",
+    "main.js.map": "/my-freedom/static/js/main.95b62504.chunk.js.map",
+    "runtime-main.js": "/my-freedom/static/js/runtime-main.d3f9a9a8.js",
+    "runtime-main.js.map": "/my-freedom/static/js/runtime-main.d3f9a9a8.js.map",
+    "static/js/2.5efd8366.chunk.js": "/my-freedom/static/js/2.5efd8366.chunk.js",
+    "static/js/2.5efd8366.chunk.js.map": "/my-freedom/static/js/2.5efd8366.chunk.js.map",
+    "static/js/3.28307c48.chunk.js": "/my-freedom/static/js/3.28307c48.chunk.js",
+    "static/js/3.28307c48.chunk.js.map": "/my-freedom/static/js/3.28307c48.chunk.js.map",
+    "index.html": "/my-freedom/index.html",
+    "static/css/main.d3ef1a47.chunk.css.map": "/my-freedom/static/css/main.d3ef1a47.chunk.css.map",
+    "static/js/2.5efd8366.chunk.js.LICENSE.txt": "/my-freedom/static/js/2.5efd8366.chunk.js.LICENSE.txt",
+    "static/media/header.4531151a.png": "/my-freedom/static/media/header.4531151a.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.d3f9a9a8.js",
+    "static/js/2.5efd8366.chunk.js",
+    "static/css/main.d3ef1a47.chunk.css",
+    "static/js/main.95b62504.chunk.js"
+  ]
+}
