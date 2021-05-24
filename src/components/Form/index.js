@@ -1,5 +1,12 @@
 import { useForm } from "react-hook-form";
+<<<<<<< HEAD
 import styles from "./style.css";
+=======
+<<<<<<< HEAD
+import styles from "./style.css";
+=======
+>>>>>>> a5795475462f8eccc362a219519d51c12bfb5bba
+>>>>>>> 5349115e5f749901682f76f883a96165b7119496
 
 const Form = () => {
   const {
@@ -10,11 +17,17 @@ const Form = () => {
   const onSubmit = (data) => console.log(data);
 
   return (
+<<<<<<< HEAD
     <form className="form-control" onSubmit={handleSubmit(onSubmit)}>
       <p className="form-header">
         היי, מלא/י את הטופס, ככל שתפרט/י נוכל לדייק את המענה. אנחנו מתחייבים
         לשמור על דיסקרטיות!
       </p>
+=======
+<<<<<<< HEAD
+    <form className='form-control' onSubmit={handleSubmit(onSubmit)}>
+      <p className='form-header'>היי, מלא/י את הטופס, ככל שתפרט/י נוכל לדייק את המענה. אנחנו מתחייבים לשמור על דיסקרטיות!</p>
+>>>>>>> 5349115e5f749901682f76f883a96165b7119496
       <label htmlFor="fullName">שם מלא</label>
       <input
         id="fullName"
@@ -78,7 +91,24 @@ const Form = () => {
       </select>
       {errors.gender && <span role="alert">This field is required</span>}
 
+<<<<<<< HEAD
       <input className="btn" type="submit" />
+=======
+
+      <input className='btn' type="submit" />
+=======
+    <form onSubmit={handleSubmit(onSubmit)}>
+      <label htmlFor="firstName">First name</label>
+      <input
+        id="firstName"
+        aria-invalid={errors.firstName ? "true" : "false"}
+        {...register("firstName", { required: true })}
+      />
+      {errors.firstName && <span role="alert">This field is required</span>}
+
+      <input type="submit" />
+>>>>>>> a5795475462f8eccc362a219519d51c12bfb5bba
+>>>>>>> 5349115e5f749901682f76f883a96165b7119496
     </form>
   );
 };
