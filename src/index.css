@@ -15,4 +15,20 @@ body {
 .container {
   margin: 2px 2px;
   padding: 30px;
+  width: 425px;
+}
+
+@media screen and (max-width: 425px) {
+  .container {
+    padding: 0;
+    margin: 0;
+    max-width: 0;
+  }
+}
+
+@media screen and (min-width: 320px) {
+  .container {
+    padding: 0;
+    margin: 0;
+  }
 }
