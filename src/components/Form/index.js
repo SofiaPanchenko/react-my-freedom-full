@@ -207,23 +207,23 @@ const Form = () => {
 
       <div className="form-section">
         {isSelfReport ? (
-          <Fragment>
+          <div className="rateSection">
             <label htmlFor="violenceType">
               {SELF_REPORT.violence.violenceType}
             </label>
             <label htmlFor="rateInfo" className="labelComment">
               {GENERAL.violence.rateInfo}
             </label>
-          </Fragment>
+          </div>
         ) : (
-          <Fragment>
+          <div className="rateSection">
             <label htmlFor="violenceType">
               {REPORT_OTHER.violence.violenceType}
             </label>
             <label htmlFor="rateInfo" className="labelComment">
               {GENERAL.violence.rateInfo}
             </label>
-          </Fragment>
+          </div>
         )}
       </div>
 
@@ -362,7 +362,6 @@ const Form = () => {
       </div>
 
       <div className="form-section">
-        {/*  <div className="radioWithLabelComment"> */}
         <label
           htmlFor="socialDisconnection"
           className="sameLineLabel radioTitleLabel"
@@ -384,7 +383,6 @@ const Form = () => {
             );
           })}
         </div>
-        {/*  </div> */}
       </div>
 
       <div className="form-section">

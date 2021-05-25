@@ -14,7 +14,7 @@ form {
 }
 
 .form-section {
-  margin: 2% 0;
+  margin: 2.5% 0;
 }
 
 label {
@@ -53,6 +53,10 @@ label {
 .error {
   color: red;
   margin-right: 10px;
+}
+
+.rateSection {
+  padding-top: 2.5%;
 }
 
 .labelComment {
@@ -143,7 +147,6 @@ select {
   }
 
   select {
-    width: 35vw;
     min-height: 3vh;
   }
 
@@ -163,7 +166,6 @@ select {
   }
 
   select {
-    width: 35vw;
     min-height: 3vh;
   }
 
